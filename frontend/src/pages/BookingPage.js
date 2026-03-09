@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronRight, ChevronLeft, Check, Calendar as CalendarIcon, Clock, User, Mail, Phone, MessageSquare } from 'lucide-react';
 import axios from 'axios';
-import { API } from '../app';
+import { API } from '../App';
 import { toast } from 'sonner';
 
 export default function BookingPage() {
